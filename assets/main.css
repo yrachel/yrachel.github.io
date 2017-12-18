@@ -1,0 +1,64 @@
+body {
+	background: url("../../images/background.jpg") repeat fixed;
+	background-size: contain;
+	font-family: 'Barlow', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 75px;
+
+	animation-name: appear;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+li{
+	display: inline;
+	margin: 0px 10px 0px 0px;
+}
+
+i{
+	color: black;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+i:hover{
+	color: gray;
+}
+
+button{
+	position: relative;
+	left: -6px;
+	border-radius: 12px;
+	color: gray;
+	background-color: #F9F9F9;
+	border: 2px solid gray;
+	text-align: center;
+	font-size: 13px;
+	padding: 12px 28px;
+
+	-webkit-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+	-moz-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+	-ms-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+	-o-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+	transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+
+button:hover{
+	background-color: gray;
+	color: #F9F9F9;
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@keyframes appear {
+	from { margin-top: -225px;}
+	to { margin-top: 75px;}
+}
