@@ -31,7 +31,7 @@ i{
 }
 
 i:hover{
-	color: white;
+	color: gray;
 }
 
 button{
@@ -39,7 +39,7 @@ button{
 	left: -6px;
 	border-radius: 12px;
 	color: white;
-	background-color: #F9F9F9;
+	background-color: gray;
 	border: 2px solid white;
 	text-align: center;
 	font-size: 13px;
@@ -54,7 +54,7 @@ button{
 }
 
 button:hover{
-	background-color: white;
+	background-color: gray;
 	color: #F9F9F9;
 	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
