@@ -2,6 +2,7 @@ body {
 	background: url("background2.jpeg") repeat fixed;
 	background-size: contain;
 	font-family: 'Barlow', sans-serif;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 	margin-top: 75px;
