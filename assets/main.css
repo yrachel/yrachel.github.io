@@ -62,3 +62,7 @@ button:hover{
 	from { margin-top: -225px;}
 	to { margin-top: 75px;}
 }
+
+img{
+	box-shadow: 10px 10px 5px grey;
+}
