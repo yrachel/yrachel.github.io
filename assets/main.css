@@ -1,4 +1,5 @@
 body {
+	opacity: 0.5;
 	background: url("background2.jpeg") repeat fixed;
 	background-size: contain;
 	font-family: 'Barlow', sans-serif;
@@ -61,8 +62,4 @@ button:hover{
 @keyframes appear {
 	from { margin-top: -225px;}
 	to { margin-top: 75px;}
-}
-
-img{
-	box-shadow: 10px 10px 5px grey;
 }
